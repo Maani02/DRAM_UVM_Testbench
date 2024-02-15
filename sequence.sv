@@ -26,7 +26,7 @@ endtask
 */
 task body();
 pkt=dram_seq_item::type_id::create("pkt");
-repeat(10)
+repeat(1000)
 begin
 start_item(pkt);
 //pkt.add=calc_addr(addr1);

@@ -16,7 +16,7 @@ import uvm_pkg::*;
 `include "env.sv"
 `include "test.sv"
 
-module dram_top();
+module testbench();
 bit clk;
 
 initial
